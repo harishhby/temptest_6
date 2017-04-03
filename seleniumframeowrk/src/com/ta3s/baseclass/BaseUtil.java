@@ -76,6 +76,7 @@ public class BaseUtil {
 			//driver=new RemoteWebDriver(new URL("http://172.31.64.1:4444/wd/hub"),cap);
 			//driver=new RemoteWebDriver(new URL("http://"+currentIp+":4444/wd/hub"),cap);
 			driver=new RemoteWebDriver(new URL("http://hub:4444/wd/hub"),cap);
+			System.out.println(hub);
 
 		} else if (browser.equalsIgnoreCase("chrome")) {
 			System.setProperty("webdriver.chrome.driver",
